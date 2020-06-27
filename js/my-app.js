@@ -28,6 +28,31 @@ var app = new Framework7({
 		path: '/perfil/',
     	url: 'perfil.html',
     	name: 'perfil',
+  		},
+		{
+		path: '/Ryan/',
+    	url: 'Ryan.html',
+    	name: 'Ryan',
+  		},
+		{
+		path: '/Angel/',
+    	url: 'Angel.html',
+    	name: 'Angel',
+  		},
+		{
+		path: '/Juan/',
+    	url: 'Juan.html',
+    	name: 'Juan',
+  		},
+		{
+		path: '/Alexis/',
+    	url: 'Alexis.html',
+    	name: 'Alexis',
+  		},
+		{
+		path: '/informacion/',
+    	url: 'informacion.html',
+    	name: 'informacion',
   		}
 	]
 });
