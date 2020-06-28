@@ -65,38 +65,13 @@ h1,h2,h3,h4{
 
 
 .block-title{
-	color: #000;
+	color: #000000;
 	font-weight: 600;
+	font-size: 20px;
 }
 
 .img-fluid{
 	max-width: 100%;
-}
-
-.card-food .card-header{
-	padding: 0;
-}
-.card-food .card-header img{
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-}
-
-.card-food .card-content{
-	background-color: var(--azul);
-	color: #fff;
-	padding: 10px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-	font-size: 16px;
-}
-.card-food .card-content article:last-child{
-	justify-content: flex-end;
-	display: flex;
-	font-size: 13px;
-}
-
-.card-food .card-content i{
-	font-size: 20px;
 }
 
 .categorias .card{
@@ -152,16 +127,17 @@ h1,h2,h3,h4{
 }
 
 .bg-carnes{
-	background-image: url("../img/bg-meat.jpg");
+	background-image: url("../img/logo_paro.png");
 	background-size: cover;
 	background-position: top center;
 	padding: 20% 0 1px;
+	height: auto;
 }
 
 .bg-carnes h2{
-	color: #fff;
+	color: #000000;
 	text-align: center;
-	font-size: 26px;
+	font-size: 36px;
 	font-weight: 700;
 }
 
@@ -244,6 +220,5 @@ h1,h2,h3,h4{
 .link-login{
 	color: var(--gris-claro)
 }
-
 
 
