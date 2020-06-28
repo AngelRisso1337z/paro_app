@@ -65,6 +65,23 @@ $$('#btnAlerta').on('click',function(){
 	app.dialog.alert('Hola Diseño Web 2');
 });
 
+$$('#btnLogin').on('click', function(e){
+	e.preventDefault();
+	
+	var usuario = $$('#username').val();
+	var password = $$('#password').val();
+	console.log(usuario)
+	console.log(password)
+	if (usuario == 'admin' && password == "admin"){
+		$$('#nombre').html(usuario);
+		app.loginScreen.close('.login-screen');
+	}else{
+			app.dialog.alert('Datos ingresados no son validos');
+	}  	
+  
+});
+
+
 
  
 
