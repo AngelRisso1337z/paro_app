@@ -198,27 +198,26 @@ h1,h2,h3,h4{
 	padding-top: 50px;
 }
 
-
-.searchbar-input-wrap{
-	border-radius: 50px;
-}
-
 .logo-paro{
 	width: 30%;
 }
 
 
-.page-content .login-screen-content{
-	background-color: var(--azul);
+.login-screen .login-screen-content{
+	background-color: var(--gris-claro);
+}
+
+.login-screen .login-screen-page{
+	background-color: var(--gris-claro);
 }
 
 .button-login{
-	background-color: var(--gris-claro);
-	color: var(--azul);
+	background-color: var(--azul);
+	color: #fff;
 }
 
 .link-login{
-	color: var(--gris-claro)
+	color: var(--azul);
 }
 
 
