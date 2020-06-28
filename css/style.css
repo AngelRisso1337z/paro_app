@@ -77,7 +77,7 @@ h1,h2,h3,h4{
 .categorias .card{
 	background-color: var(--azul);
 	color: #fff;
-	padding: 5px 10px;
+	padding: 40px 10px;
 }
 
 .categorias .card-content img{
@@ -88,8 +88,8 @@ h1,h2,h3,h4{
 	text-align: right;
 }
 .categorias h3{
-	margin-top: -15%;
-	font-size: 14px;
+	margin-top: 5%;
+	font-size: 18px;
 	font-weight: 600;
 }
 
