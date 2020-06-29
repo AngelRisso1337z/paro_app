@@ -1,223 +1,222 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,300&display=swap');
-body{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-}
-:root{
-	--verde: #0f9e5c;
-	--fondo-panel: #4b4f58;
-	--icon-menu: #fff;
-	--text-menu: #fff;
-	--bg-menu: #4d545c;
-	--f7-list-border-color: none;
-	--azul:#323F9F;
-	--navy: #0D1F2C;
-	--gris:#B5B5B5;
-	--gris-claro: #E8E8E8;
-	--carbon:#3b3c40;
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
-.clase-vacia{}
-
-
-.panel-left{
-	background-color: var(--azul);
-	color: #fff;
+:root {
+    --verde: #0f9e5c;
+    --fondo-panel: #4b4f58;
+    --icon-menu: #fff;
+    --text-menu: #fff;
+    --bg-menu: #4d545c;
+    --f7-list-border-color: none;
+    --azul: #323F9F;
+    --navy: #0D1F2C;
+    --gris: #B5B5B5;
+    --gris-claro: #E8E8E8;
+    --carbon: #3b3c40;
 }
 
-.letra-blanco{
-	color: #fff;
-}
-.list-menu .item-media span{
-	color: var(--azul);
-	font-size: 30px;
+.clase-vacia {}
+
+.panel-left {
+    background-color: var(--azul);
+    color: #fff;
 }
 
-.list-menu p{
-	color: var(--azul);
-	font-size: 17px;
-	font-weight: 600;
+.letra-blanco {
+    color: #fff;
 }
 
-.user{
-	font-size: 20px;
+.list-menu .item-media span {
+    color: var(--azul);
+    font-size: 30px;
 }
 
-.list-menu{
-	background-color: var(--gris-claro) !important;
-	font-size: 16px;
+.list-menu p {
+    color: var(--azul);
+    font-size: 17px;
+    font-weight: 600;
 }
 
-.list-menu .item-inner::before{
-	color: rgba(255,255,255,0.50) !important;
-}
-.list-menu .item-inner::after{
-	background-color: transparent !important;
+.user {
+    font-size: 20px;
 }
 
-.item-link{
-	
+.list-menu {
+    background-color: var(--gris-claro) !important;
+    font-size: 16px;
 }
 
-h1,h2,h3,h4{
-	margin: 2px 0;
+.list-menu .item-inner::before {
+    color: rgba(255, 255, 255, 0.50) !important;
 }
 
-
-.block-title{
-	color: #000000;
-	font-weight: 600;
-	font-size: 20px;
+.list-menu .item-inner::after {
+    background-color: transparent !important;
 }
 
-.img-fluid{
-	max-width: 100%;
+.item-link {}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 2px 0;
 }
 
-.categorias .card{
-	background-color: var(--azul);
-	color: #fff;
-	padding: 40px 10px;
+.block-title {
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
 }
 
-.categorias .card-content img{
-	width: 40px;
-	
-}
-.derecha{
-	text-align: right;
-}
-.categorias h3{
-	margin-top: 5%;
-	font-size: 18px;
-	font-weight: 600;
+.img-fluid {
+    max-width: 100%;
 }
 
-.img-perfil{
-	border-radius: 100%;
+.categorias .card {
+    background-color: var(--azul);
+    color: #fff;
+    padding: 40px 10px;
 }
 
-
-.bg-azul{
-	background-color: var(--azul);
-	color: #fff;
-	padding: 45px 0;
+.categorias .card-content img {
+    width: 40px;
 }
 
-.bg-azul .block{
-	margin-top: 0;
+.derecha {
+    text-align: right;
 }
 
-.perfil-contador .card-content{
-	padding: 40px 20px;
-	text-align: center;
-}
-.perfil-contador .card{
-	margin-top: -25%;
-	box-shadow: 0px 0px 10px 0px #eee ;
+.categorias h3 {
+    margin-top: 5%;
+    font-size: 18px;
+    font-weight: 600;
 }
 
-.perfil-contador h4{
-	font-size: 24px;
+.img-perfil {
+    border-radius: 100%;
 }
 
-.list-perfil .item-title{
-	color: #000;
-	font-weight: 600;
+.bg-azul {
+    background-color: var(--azul);
+    color: #fff;
+    padding: 45px 0;
 }
 
-.bg-carnes{
-	background-image: url("../img/logo_paro.png");
-	background-size: cover;
-	background-position: top center;
-	padding: 20% 0 1px;
-	height: auto;
+.bg-azul .block {
+    margin-top: 0;
 }
 
-.bg-carnes h2{
-	color: #000000;
-	text-align: center;
-	font-size: 36px;
-	font-weight: 700;
+.perfil-contador .card-content {
+    padding: 40px 20px;
+    text-align: center;
 }
 
-.bg-carnes .block{
-	margin-top: 0;
+.perfil-contador .card {
+    margin-top: -25%;
+    box-shadow: 0px 0px 10px 0px #eee;
+}
+
+.perfil-contador h4 {
+    font-size: 24px;
+}
+
+.list-perfil .item-title {
+    color: #000;
+    font-weight: 600;
+}
+
+.bg-traba {
+    background-image: url("../img/logo_paro.png");
+    background-size: cover;
+    background-position: top center;
+    padding: 20% 0 1px;
+    height: auto;
+}
+
+.bg-traba h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.bg-traba .block {
+    margin-top: 0;
 }
 
 
 /*Style Paro*/
 
-.icono-paro{
-	border-radius: 100px;
-	height: 60px;
-	width: 50px;
-	text-align: center;
+.icono-paro {
+    border-radius: 100px;
+    height: 60px;
+    width: 50px;
+    text-align: center;
 }
 
-.icono-paro span{
-	color: var(--navy);
-	font-size: 45px;
-	padding-top: 5px;
-
-}
-.servicio-titulo{
-	font-size: 12px;
-	color: var(--azul);
-	padding-top: 15px;
+.icono-paro span {
+    color: var(--navy);
+    font-size: 45px;
+    padding-top: 5px;
 }
 
-.botones-paro{
-	align-content: center;
-	margin-bottom: 20px;
+.servicio-titulo {
+    font-size: 12px;
+    color: var(--azul);
+    padding-top: 15px;
 }
 
-.search{
-	border-radius: 70px;
-	color: #fff;
-	background-color: var(--gris);
-	padding: 0px 10px;
-	
+.botones-paro {
+    align-content: center;
+    margin-bottom: 20px;
 }
 
-.chat{
-	border-radius: 100px;
-	height: 50px;
-	width: 50px;
-	text-align: center;
-	background-color: var(--azul);
+.search {
+    border-radius: 70px;
+    color: #fff;
+    background-color: var(--gris);
+    padding: 0px 10px;
 }
 
-.chat span{
-	color: #fff;
-	font-size: 30px;
-	padding-top: 10px;
+.chat {
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: var(--azul);
 }
 
-.chat-boton{
-	padding-top: 50px;
+.chat span {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 10px;
 }
 
-.logo-paro{
-	width: 30%;
+.chat-boton {
+    padding-top: 50px;
 }
 
-
-.login-screen .login-screen-content{
-	background-color: var(--gris-claro);
+.logo-paro {
+    width: 30%;
 }
 
-.login-screen .login-screen-page{
-	background-color: var(--gris-claro);
+.login-screen .login-screen-content {
+    background-color: var(--gris-claro);
 }
 
-.button-login{
-	background-color: var(--azul);
-	color: #fff;
+.login-screen .login-screen-page {
+    background-color: var(--gris-claro);
 }
 
-.link-login{
-	color: var(--azul);
+.button-login {
+    background-color: var(--azul);
+    color: #fff;
 }
 
-
+.link-login {
+    color: var(--azul);
+}
